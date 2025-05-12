@@ -70,32 +70,52 @@ _*Precision for Hypertension is NaN due to zero true positives,zero false positi
 
 ## 🚀 Installation  
 1. **Clone the Repository**:  
-   ```bash  
+
+   ```bash
    git clone https://github.com/Vnadh/VisionGuard.git  
    cd VisionGuard
+  ```
+
 
 2.**Install Dependencies**:
+
+
     ```bash
     pip install -r requirements.txt
+    ``` 
+
 
 3.**Interface**:
+
+
     ```bash
     streamlit run app.py
+    ``` 
+
 
 ---
 ### 📈 Results Visualization
-    **confusion matrix**
+**confusion matrixfor Normal (N)**:
 ![confusion matrix](media/image1.png) 
+**Confusion Matrix for Diabetes (D)**:
 ![confusion matrix](media/image2.png) 
+**Confusion Matrix for Glaucoma (G)**:
 ![confusion matrix](media/image3.png) 
+**Confusion Matrix for Cataract (C)**:
 ![confusion matrix](media/image4.png) 
+**Confusion Matrix for Age related Macular Degeneration (A)**:
 ![confusion matrix](media/image5.png) 
+**Confusion Matrix for Hypertension (H)**:
 ![confusion matrix](media/image6.png) 
+**Confusion Matrix for Pathological Myopia (M)**:
 ![confusion matrix](media/image7.png) 
-![confusion matrix](media/image8.png) 
+**Confusion Matrix for Other diseases/abnormalities (O)**:
+![confusion matrix](media/image8.png)
+**Bar Graph of Accuracy Scores for Different Diseases**
 ![Bar Graph](media/image9.png) 
+**Receiver Operating Characteristic (ROC) Curves**
 ![ROC](media/image10.png) 
-
+---
 ### 🤝 Contributing
 Contributions are welcome! Open an issue or submit a pull request for improvements.
 ---
