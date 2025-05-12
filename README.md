@@ -90,25 +90,25 @@ _*Precision for Hypertension is NaN due to zero true positives,zero false positi
 ---
 ### 📈 Results Visualization
 **confusion matrixfor Normal (N)**:
-![confusion matrix](media/image1.png) 
+![confusion matrix](media/image1.png) <br>
 **Confusion Matrix for Diabetes (D)**:
-![confusion matrix](media/image2.png) 
+![confusion matrix](media/image2.png) <br>
 **Confusion Matrix for Glaucoma (G)**:
-![confusion matrix](media/image3.png) 
+![confusion matrix](media/image3.png) <br>
 **Confusion Matrix for Cataract (C)**:
-![confusion matrix](media/image4.png) 
+![confusion matrix](media/image4.png) <br>
 **Confusion Matrix for Age related Macular Degeneration (A)**:
-![confusion matrix](media/image5.png) 
+![confusion matrix](media/image5.png) <br>
 **Confusion Matrix for Hypertension (H)**:
-![confusion matrix](media/image6.png) 
+![confusion matrix](media/image6.png) <br>
 **Confusion Matrix for Pathological Myopia (M)**:
-![confusion matrix](media/image7.png) 
+![confusion matrix](media/image7.png) <br>
 **Confusion Matrix for Other diseases/abnormalities (O)**:
-![confusion matrix](media/image8.png)
+![confusion matrix](media/image8.png)<br>
 **Bar Graph of Accuracy Scores for Different Diseases**
-![Bar Graph](media/image9.png) 
+![Bar Graph](media/image9.png) <br>
 **Receiver Operating Characteristic (ROC) Curves**
-![ROC](media/image10.png) 
+![ROC](media/image10.png) <br>
 ---
 ### 🤝 Contributing
 Contributions are welcome! Open an issue or submit a pull request for improvements.
