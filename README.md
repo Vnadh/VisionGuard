@@ -138,13 +138,13 @@ streamlit run app.py
 ![ROC](media/image10.png) <br>
 ---
 ### 🤝 Contributing
-    Contributions are welcome! Open an issue or submit a pull request for improvements.
+ Contributions are welcome! Open an issue or submit a pull request for improvements.
 ---
 ### 📜 License
-    MIT License. See LICENSE for details.
+ MIT License. See LICENSE for details.
 ---
 ### 🌐 Website
-    Explore a live prediction demo at [visionguard-vnadh.streamlit.app](https://visionguard-vnadh.streamlit.app/) .
+ Explore a live prediction demo at [visionguard-vnadh.streamlit.app](https://visionguard-vnadh.streamlit.app/) .
 ---
 ### 🚧 Limitations & Future Work
  * Hypertension Detection: Fails due to class imbalance (no true positives).
