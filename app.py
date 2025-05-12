@@ -84,7 +84,7 @@ transform = transforms.Compose([
 ])
 
 # Title
-st.title("Ocular Disease Classification with Grad-CAM & SHAP")
+st.title("Ocular Disease Classification with Grad-CAM ")
 
 # Upload Images and Metadata
 left_img_file = st.file_uploader("Upload Left Eye Image", type=['jpg', 'png'])
