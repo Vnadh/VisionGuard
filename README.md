@@ -71,26 +71,20 @@ _*Precision for Hypertension is NaN due to zero true positives,zero false positi
 ## 🚀 Installation  
 1. **Clone the Repository**:  
 
-   ```bash
    git clone https://github.com/Vnadh/VisionGuard.git  
    cd VisionGuard
-  ```
 
 
 2.**Install Dependencies**:
 
 
-    ```bash
-    pip install -r requirements.txt
-    ``` 
+    pip install -r requirements.txt 
 
 
 3.**Interface**:
 
-
-    ```bash
     streamlit run app.py
-    ``` 
+     
 
 
 ---
