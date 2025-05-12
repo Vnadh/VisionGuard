@@ -68,22 +68,49 @@ _*Precision for Hypertension is NaN due to zero true positives,zero false positi
 
 ---
 
+**README.md** (Revised Installation & Interface Sections)  
+
+---
+
 ## 🚀 Installation  
-1. **Clone the Repository**:  
 
-   git clone https://github.com/Vnadh/VisionGuard.git  
-   cd VisionGuard
+### 1. **Clone the Repository**  
+First, copy the project to your local machine using:  
+```bash  
+git clone https://github.com/Vnadh/VisionGuard.git  
+cd VisionGuard  # Navigate to the project folder  
+```  
 
+---
 
-2.**Install Dependencies**:
+### 2. **Install Dependencies**  
+Install all required Python libraries using:  
+```bash  
+pip install -r requirements.txt  
+```  
+> 🔍 **What this does**: This installs PyTorch, Streamlit, and other packages listed in `requirements.txt`.  
 
+---
 
-    pip install -r requirements.txt 
+### 3. **Launch the Web Interface**  
+Start the user-friendly medical interface with one command:  
+```bash  
+streamlit run app.py  
+```  
+✅ **What to expect**:  
+- A browser window will open automatically at `http://localhost:8501`.  
+- Upload a retinal image and click **Analyze** to get instant predictions.  
+- See example results below:  
 
+![VisionGuard Interface Demo](media/app_demo.png)  
 
-3.**Interface**:
+---
 
-    streamlit run app.py
+### 🚨 Troubleshooting Tips  
+- **Dependency errors**: Run `pip install --upgrade -r requirements.txt`.  
+- **Port conflicts**: Use `streamlit run app.py --server.port 8502` to switch ports.  
+- **Slow performance**: Ensure you’re using a GPU-enabled environment for faster inference.  
+
      
 
 
