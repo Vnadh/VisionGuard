@@ -35,7 +35,6 @@
 
 **Disease-Specific Metrics**:  
 
-|-----------------------|------------|----------|----------|-----------|
 | Category              | Accuracy   | F1-Score | Recall   | Precision |  
 |-----------------------|------------|----------|----------|-----------|  
 | **Normal (N)**        | 90.38%     | 0.8457   | 0.8024   | 0.8939    |  
@@ -46,7 +45,7 @@
 |**Age related(A)**     | 97.57%     | 0.7634   | 0.7463   | 0.7812    |
 |**Myopia (M)**         | 99.45%     | 0.9440   | 0.9077   | 0.9833    |
 |**Other diseases (O)** |83.02%      | 0.6823   | 0.7327   | 0.6384    |
-|-----------------------|------------|----------|----------|-----------|
+
 
 _*Precision for Hypertension is NaN due to zero true positives,zero false positives.   
 
@@ -74,16 +73,28 @@ _*Precision for Hypertension is NaN due to zero true positives,zero false positi
    ```bash  
    git clone https://github.com/Vnadh/VisionGuard.git  
    cd VisionGuard
-   ```
+
 2.**Install Dependencies**:
     ```bash
     pip install -r requirements.txt
-    ```
+
 3.**Interface**:
     ```bash
     streamlit run app.py
-    ```
+
 ---
+### 📈 Results Visualization
+    **confusion matrix**
+![confusion matrix](media/image1.png) 
+![confusion matrix](media/image2.png) 
+![confusion matrix](media/image3.png) 
+![confusion matrix](media/image4.png) 
+![confusion matrix](media/image5.png) 
+![confusion matrix](media/image6.png) 
+![confusion matrix](media/image7.png) 
+![confusion matrix](media/image8.png) 
+![Bar Graph](media/image9.png) 
+![ROC](media/image10.png) 
 
 ### 🤝 Contributing
 Contributions are welcome! Open an issue or submit a pull request for improvements.
