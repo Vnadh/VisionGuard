@@ -99,7 +99,7 @@ streamlit run app.py
 ```  
 ✅ **What to expect**:  
 - A browser window will open automatically at `http://localhost:8501`.  
-- Upload a retinal image and click **Analyze** to get instant predictions.  
+- Upload a retinal image and click **predict** to get instant predictions.  
 - See example results below:  
 
 ![VisionGuard Interface Demo](media/app_demo.png)  
@@ -132,19 +132,19 @@ streamlit run app.py
 ![confusion matrix](media/image7.png) <br>
 **Confusion Matrix for Other diseases/abnormalities (O)**:
 ![confusion matrix](media/image8.png)<br>
-**Bar Graph of Accuracy Scores for Different Diseases**
+**Bar Graph of Accuracy Scores for Different Diseases**:
 ![Bar Graph](media/image9.png) <br>
-**Receiver Operating Characteristic (ROC) Curves**
+**Receiver Operating Characteristic (ROC) Curves**:
 ![ROC](media/image10.png) <br>
 ---
 ### 🤝 Contributing
-Contributions are welcome! Open an issue or submit a pull request for improvements.
+    Contributions are welcome! Open an issue or submit a pull request for improvements.
 ---
 ### 📜 License
-MIT License. See LICENSE for details.
+    MIT License. See LICENSE for details.
 ---
 ### 🌐 Website
-Explore live demos at .
+    Explore a live prediction demo at [visionguard-vnadh.streamlit.app](https://visionguard-vnadh.streamlit.app/) .
 ---
 ### 🚧 Limitations & Future Work
  * Hypertension Detection: Fails due to class imbalance (no true positives).
