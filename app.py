@@ -109,6 +109,7 @@ if st.button("Predict"):
             outputs = model(l_img_tensor, r_img_tensor, metadata)
             probs = torch.sigmoid(outputs).detach().cpu().numpy()[0]
             preds = [int(p >= 0.5) for p in probs]
+        
 
         disease_labels = ['Normal', 'Diabetes', 'Glaucoma', 'Cataract', 'AMD', 'Hypertension', 'Myopia', 'Other']
         st.subheader("Prediction")
